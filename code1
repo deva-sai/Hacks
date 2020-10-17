@@ -177,7 +177,7 @@ public class MedicalManagement
             s[i] = new staff();
 
         d[0].did = "21";
-        d[0].dname = "Dr.Charan";
+        d[0].dname = "Dr.Vivek";
         d[0].specilist = "ENT";
         d[0].appoint = "5-11AM";
         d[0].doc_qual = "MBBS,MD";
@@ -189,13 +189,13 @@ public class MedicalManagement
         d[1].doc_qual = "MBBS,MD";
         d[1].droom = 45;
         d[2].did = "17";
-        d[2].dname = "Dr.Vishnu";
+        d[2].dname = "Dr.Vishwa";
         d[2].specilist = "Surgeon";
         d[2].appoint = "8-2AM";
         d[2].doc_qual = "BDM";
         d[2].droom = 8;
         d[3].did = "33";
-        d[3].dname = "Dr.Sritej";
+        d[3].dname = "Dr.Suhas";
         d[3].specilist = "Artho";
         d[3].appoint = "10-4PM";
         d[3].doc_qual = "MBBS,MS";
