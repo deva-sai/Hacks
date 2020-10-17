@@ -248,13 +248,13 @@ public class MedicalManagement
         m[3].count = 100;
 
         l[0].fecility = "X-ray     ";
-        l[0].lab_cost = 800;
+        l[0].lab_cost = 500;
         l[1].fecility = "CT Scan   ";
-        l[1].lab_cost = 1200;
+        l[1].lab_cost = 1000;
         l[2].fecility = "OR Scan   ";
-        l[2].lab_cost = 500;
+        l[2].lab_cost = 600;
         l[3].fecility = "Blood Bank";
-        l[3].lab_cost = 50;
+        l[3].lab_cost = 30;
 
         f[0].fec_name = "Ambulance";
         f[1].fec_name = "Admit Facility ";
