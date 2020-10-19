@@ -251,7 +251,7 @@ public class MedicalManagement
         l[0].lab_cost = 500;
         l[1].fecility = "CT Scan   ";
         l[1].lab_cost = 1000;
-        l[2].fecility = "OR Scan   ";
+        l[2].fecility = "Normal Scan   ";
         l[2].lab_cost = 600;
         l[3].fecility = "Blood Bank";
         l[3].lab_cost = 30;
@@ -288,7 +288,12 @@ public class MedicalManagement
         {
             System.out.println("\n                                    MAIN MENU");
             System.out.println("-----------------------------------------------------------------------------------");
-            System.out.println("1.Doctors  2. Patients  3.Medicines  4.Laboratories  5. Facilities  6. Staff ");
+            System.out.println("1.Doctors");
+            System.out.println("2. Patients");
+            System.out.println("3.Medicines");
+            System.out.println("4.Laboratories");
+            System.out.println("5.Facilities");
+            System.out.println("6.Staff");
             System.out.println("-----------------------------------------------------------------------------------");
             choice = input.nextInt();
             switch (choice)
